@@ -1,0 +1,45 @@
+/*selectores de etiqueta*/
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    font-size: 50pt;
+    text-align:left;
+}
+.p2{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.p3{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    font-size: 15pt;
+    text-align:left;
+}
+input{
+    background-color:aliceblue;
+    padding: 4px 4px 4px 4px;
+    color:black;
+}
+/*Selectores de clase ES CON ...*/
+.estilo_boton{
+    padding: 10pt;
+    background-color:chartreuse;
+    text-align: center;
+}
+
+/*Selectores de ID identificador ES CON ###*/
+.p1{
+    color:darkred;
+    font-style: italic;
+    font-size: 20pt;
+}
+form{
+    text-align: center;
+}
+
+body{
+    background-image: url("fondo.jpg");
+}

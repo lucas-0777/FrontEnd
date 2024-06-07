@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="recuadro">
+        <h1><img class="logo" src="css/fondopro.png"></h1>
+        <h1>¡Empecemos!</h1>
+        <p>Por favor, para poder ingresar completa los siguientes datos: </p>
+        <input type="email" id="correo" onkeydown="validar()" placeholder="Ingresa tu dirección de correo electronico" class="input"><br>
+        <input type="password" placeholder="Ingresa tu contraseña" id="contraseña" onkeydown="validar()">
+        <button type="button" id="btn-ingresar" class="btn btn-primary btn-lg">Ingresar</button>
+        <p>O bien</p>
+        <a href="https://www.google.com/gmail" class="btn btn-primary" tabindex="-1" role="button">Continuar con Google</a>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>

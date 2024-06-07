@@ -1,0 +1,52 @@
+<html lang="es-PY">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>UenoBank</title>
+</head>
+<body>
+    <p class="titulo">Cotización del día</p>
+    <table class="tabla" border="1">
+        <tr class="titulos">
+            <th>MONEDA</th>
+            <th>COMPRA</th>
+            <th>VENTA</th>
+        </tr>
+        <tr>
+            <td><img class="Flag" src="images/Flag.webp"> Dólar americano</td>
+            <td>7.400 <img class="Flag" src="images/igual.png"></td>
+            <td>7.460 <img class="Flag" src="images/igual.png"></td>
+        </tr>
+        <tr>
+            <td><img class="Flag" src="images/bra.png"> Real</td>
+            <td>1.385 <img class="Flag" src="images/flecha.jpg"></td>
+            <td>1.440 <img class="Flag" src="images/flecha.jpg"></td>
+        </tr>
+        <tr>
+            <td><img class="Flag" src="images/ar.png"> Peso Argentino</td>
+            <td>6 <img class="Flag" src="images/igual.png"></td>
+            <td>7 <img class="Flag" src="images/fle.avif"></td>
+        </tr>
+    </table>
+    <div class="cotización">
+        <h1>Conversor de Monedas</h1>
+        <label>De: </label><select id="moneda-1">
+            <option value="usd">Dólar americano</option>
+            <option value="rbr">Real Br</option>
+            <option value="par">Peso Arg</option>
+        </select>
+        <label>A: </label><select id="moneda-2">
+            <option value="gs" selected>Guaraní PYG</option>
+            <option value="usd" selected>Dólar US</option>
+            <option value="rbr" selected>Real Br</option>
+            <option value="par" selected>Peso Arg</option>
+        </select>
+        <h3>Cantidad:</h3>
+            <input type="number" id="monto"><br>
+        <button id="btn-convertir">Convertir</button>
+        <p id="resultado">Su conversión es: -----</p>
+    </div>  
+</body>
+<script src="js/script.js"></script>
+</html>

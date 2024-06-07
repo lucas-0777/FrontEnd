@@ -1,0 +1,33 @@
+
+.flag{
+    width: 25px;
+    height: 15px;
+}
+
+.titulo{
+    font-size: 45pt;
+    text-align: center;
+    color:white;
+}
+
+.titulos{
+    color: lawngreen;
+}
+
+.tabla{
+    margin-left: 320px;
+    width: 600px;
+    height: 120px;
+    color:white;
+   
+}
+
+body{
+    background-image: url(fondo1.jpg);
+    background-size: 100%;
+}
+
+.cotización{
+    text-align: center;
+    color:white;
+}
