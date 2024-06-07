@@ -1,0 +1,98 @@
+.contenedor{
+    height: 1000px;
+    width: 1000px;
+    background-color: rgba(221, 218, 218, 0.5);
+    border-radius: 10px;
+    margin: auto;
+    top: 0px;
+    position: relative;
+
+}
+
+@keyframes fondo {
+    from {background-position-x: 0px;}
+    to {
+        background-position-x: -100px;
+    }
+}
+
+body{
+    background-color: #9fc1ff;
+    background-image: url("clasico-camp-nou.jpeg");
+    background-size: 110%;
+    background-attachment: fixed;
+    animation-name: fondo;
+    animation-duration: 10s;
+    
+}
+
+.capa_encabezado{
+    height: 100px;
+    width: 900px;
+    background-color:chartreuse;
+    border-radius: 5px;
+    left: 50px;
+    position:relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55pt;
+    text-align: center;
+    
+}
+
+.capa_login{
+    float: left;
+    height: 300px;
+    width: 425px;
+    background-color: #9fc1ff91;
+    border-radius: 5px;
+    left: 50px;
+    top: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.imagen{
+    height: 200px;
+}
+
+.capa_registro{
+    float: right;
+    height: 300px;
+    width: 425px;
+    background-color: #9fc1ff91;
+    border-radius: 5px;
+    right: 50px;
+    top: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.capa_pie{
+    background-color:aqua;
+    border-radius: 5px;
+    top: 400px;
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.capa_login1{
+    height: 300px;
+    width: 500px;
+    background-color: #9fc1ff91;
+    border-radius: 5px;
+    left: 250px;
+    top: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.barca{
+    height: 200px;
+    width: 400px;
+}
+
+.barca1{
+    height: 150px;
+    width: 250px;
+}
+

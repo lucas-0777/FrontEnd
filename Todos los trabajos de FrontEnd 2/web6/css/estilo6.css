@@ -1,0 +1,38 @@
+.contenedor{
+    background-image:url(amanecer.avif);
+    background-size: 110%;
+    height: 650px;
+    width: 1000px;
+    border-radius: 10px;
+    margin: auto;
+    top: 0px;
+    position:relative;
+    text-align: center;
+}
+.capa_encabezado{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+    color:chartreuse;
+    text-align: center;
+    text-shadow: black;
+}
+
+.hojitas{
+    height: 150px;
+    width: 150px;
+    float:left;
+    background-color:chartreuse;
+    margin-left: 100px;
+    
+}
+
+.imagenes{
+    height: 130px;
+    width: 130px;
+    float:left;
+    
+}
+
+.palabras{
+    color: white;
+}

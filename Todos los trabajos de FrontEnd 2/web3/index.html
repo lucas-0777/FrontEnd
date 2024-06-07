@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Datos personales</legend>
+                Nombre: <input type="text"><br>
+                Email: <input type="text"><br>
+                Cumpleaños: <input type="date">
+            </fieldset>
+            <fieldset>
+                <legend>Formulario de inscripción</legend>
+
+                <fieldset>
+                    <legent>Datos personales</legent><br>
+                    <input type="text" name="nombre">Nombre y apellido<br>
+                    <input type="number" name="edad">Edad<br>
+                    <input type="text" name="dirección">Dirección<br>
+                    <input type="date" name="fecha">Fecha de nacimiento<br>
+                    <input type="tel" name="telefono">Teléfono<br>
+                    <input type="email" name="correo">Correo electrónico<br>
+                    <input type="radio" name="quesos">Hombre
+                    <input type="radio" name="quesos">Mujer
+                    <br>
+                    <select name="ciudad">
+                        <option>M.R.Alonso</option>
+                        <option>Asunción</option>
+                        <option>Limpio</option>
+                        <option>San Lorenzo</option>
+                        <option>Fdo. De La Mora</option>
+                        <option>No esta aquí</option>
+                    </select>Ciudad
+                </fieldset>
+
+                <fieldset>
+                    <legend>Datos académicos</legend>
+                    <select name="academico">
+                        <option>Universitario</option>
+                        <option>B. Científico</option>
+                        <option>B. Técnico</option>
+                        <option>Técnico Superior</option>
+                        <option>Ninguna</option>
+                    </select>Estado académico<br>
+                    Conocimientos profesionales<br>
+                    <textarea cols="160" rows="3" maxlength="500"></textarea><br>
+                </fieldset>
+
+                <fieldset>
+                    Disponibilidad de tiempo<br>
+                    <input type="checkbox" name="tiempo1" value="m">Mañana
+                    <input type="checkbox" name="tiempo2" value="t">Tarde
+                    <input type="checkbox" name="tiempo3" value="n">Noche
+                </fieldset>
+
+                <fieldset>
+                    <h4>Por favor, seleccionar la aspiración salarial.</h4>
+                    1000000<input type="range" name="sueldo" min="1000000" max="5000000" step="1000000">5000000
+                </fieldset>
+
+                <fieldset>
+                    <input type="submit" name="enviar" value="Enviar">
+                    <input type="reset" value="Hoy no">
+                </fieldset>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
